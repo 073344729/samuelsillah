@@ -10,10 +10,8 @@ href="bluestyle.css">
 <body>
 <p>Hi! I am Samuel Sillah, you are welcome to my GitHub Portfolio feel free to go throung it.</p>
 <p>I like turning imagination into reality.</p>
-<p>This is a new line.</p>
 <div><Image
     src="Image.jpg"
-    alt="Hello from space"
     style="width:100%m;max-width: 200px"></Image>
 
 </div>
