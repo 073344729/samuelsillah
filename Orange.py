@@ -1,35 +1,14 @@
-#Creating a Server 
-
-'''import socket
-server_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-server_socket.bind(('0.0.0.0', 28924))
-server_socket.listen()
-print('Server Listening......')
-while True:
-  client, address = server_socket.accept()
-  client.send(b'Hello from server')
-  message = client.recv(1024).decode('ascii')
-  print(message)
-  '''
-  
-  
-      
-
+#This is a USSD Code programe
 #if No
 def Selfregister():
   print("Thank you for choosing Qmoney")
   quit()
   Selfrgister()
-
-
 #If Registration is yes
 def Yes():
   print("Your number is not register,please go to the nearest Qmoney shop\n with a valid ID and register your line or send via \n whatsApp line to update your registration.")
   quit()
   Yes()
-
-
-
 # Self Registration 
 def SelfRedistration():
   print("Do you want to register for the QMoney?")
@@ -44,10 +23,6 @@ def SelfRedistration():
     print("Invalid please try again")
     quit()
     SelfRedistration()
-
-
-
-
 #No. 8 to continue
 def Before():
   print("_________________________")
@@ -67,11 +42,6 @@ def Before():
     print('Invalid options')
     quit()
     Before()
-
-
-
-
-
 #For The 260mb
 def MB():
   amnt = '5'
@@ -97,8 +67,6 @@ def firm():
       quit()
 
       firm()
-
- 
 #For The 15mb
 def comfirm():
   amnt = '0.31'
@@ -111,8 +79,6 @@ def comfirm():
       quit()
 
       comfirm()
-
-
 #If Daily
 
 def Daily():
@@ -131,9 +97,6 @@ def Daily():
     print("Invalid input")
     quit()
     Daily()
-
-
-
 #To Buy Data Bundle for my number
 
 def my_Number():
@@ -154,9 +117,6 @@ def my_Number():
     quit()
 
     my_Number()
-
-     
-
 #To Buy Data Bundle
 
 def Bundle():
@@ -173,10 +133,6 @@ def Bundle():
     quit()
 
     Bundle()
-
-
-
-
 #To Top-Up anothoer Qcel Number
 
 def TopUp():
@@ -191,13 +147,6 @@ def TopUp():
     quit()
 
     TopUp()
-
-
-
-  
-
-
-
 # to up my number
 def mynumber():
   amout = float(input("Please enter the amount of Top-Up you want\nto buy in SLE:  "))
@@ -209,11 +158,6 @@ def mynumber():
    print(Entryoption())
   quit()
   mynumber()
-
-
-
-
-
 def cho():
   options = input('''
 1. Top UP My Number
@@ -227,11 +171,6 @@ def cho():
     print("Try again")
     quit()
     cho 
-
-
-
-
-
 #if the user want to buy top up or data bundle through his/her Qmoney Account
 def BuytopUp():
  init = input('''
@@ -249,10 +188,6 @@ def BuytopUp():
   print("Nothing")
   quit()
   BuytopUp()
-
-
-
-
 #if the  User want to buy Goods
 
 def BuyGoods():
@@ -264,16 +199,6 @@ def BuyGoods():
     print("Invalid merchant code or you have insufficient balance, please try again.")
     quit()
   BuyGoods()
-
-
-
-
-
-
-
-
-
-
 #Oversea Transfer Senegal
 
 def Sen():
@@ -287,11 +212,7 @@ def Sen():
   else:
     print('Incorrect Format please try again')
     quit()
-
-
   Sen()
-
-
 #Oversea Transfer Guinea
 
 def Gui():
@@ -305,17 +226,7 @@ def Gui():
   else:
     print('Incorrect Format please try again')
     quit()
-
-
   Gui()
-
-
-
-
-
-
-
-
 #Oversea Transfer Liberia
 
 def Lib():
@@ -329,26 +240,13 @@ def Lib():
   else:
     print('Incorrect Format please try again')
     quit()
-
-
   Lib()
-
-
-
-
-
-
-
 #Check for the Token Number
 
 def Token():
   print("Dear Customer this service has been suspended temporaly ")
   quit()
   Token()
-
-
-
-
 #Buy EDSA TOP UP
 
 def Buy():
@@ -366,8 +264,6 @@ def Buy():
      quit()
 
    Buy()
-
-
 #To Buy EDSA or Check for Token Number
 def Edsa():
   option = input('''
@@ -383,8 +279,6 @@ def Edsa():
     quit()
   
   Edsa()
-
-
 # If the user want to make payement througn Qmoney 
 def Make():
   print("----------")
@@ -408,9 +302,6 @@ def Make():
 
     Make()
     quit()
-
-
-
 #Menu
 def menu(): 
   Entryoption()  
@@ -472,9 +363,6 @@ def Oversea():
    
 
   Oversea()
-
-
-
 # Other Network
 
 def Other():
@@ -508,12 +396,6 @@ def Agent():
       quit()
       
   Agent() 
-
-
-
-
-
-
 # Qmoney Customer
 def Customer():
   phone = input("Please enter the receival phone number: ")
@@ -529,12 +411,6 @@ def Customer():
        quit()
     
   Customer()
-
-
-
-
-
-
 
 # Asking the user if he/she want to transfer money to another person 
 
@@ -571,9 +447,6 @@ def transfer():
  else:
     print("Invalid option")
  transfer()
-
-
-
 #Asking the user to check his balance
 
 def Balance():
@@ -585,10 +458,6 @@ def Balance():
     print("Invalid Secret code, please try again")
     quit()
     Balance()
-
-
-
-
 # To ask the user to enter his/her option 
 
 def Entryoption():
@@ -624,13 +493,6 @@ def Entryoption():
  else:
    print("Invalid option")
    Entryoption()   
-
-
-
-
-
-
-
 
 # Function to check the code 
 def CONFIRMUSSD():
